@@ -16,6 +16,8 @@
     <DotnetCliPath Condition="'$(DotnetCliPath)'==''">$(ToolRuntimePath)dotnetcli/bin/</DotnetCliPath>
     <BuildToolsTaskDir Condition="'$(BuildToolsTargets45)' == 'true'">$(ToolsDir)net45/</BuildToolsTaskDir>
     <UseRoslynCompilers Condition="'$(UseRoslynCompilers)'=='' and '$(OSEnvironment)'!='Windows_NT'">false</UseRoslynCompilers>
+
+    <WixTargetsPath>todo</WixTargetsPath>
   </PropertyGroup>
 
   <PropertyGroup>

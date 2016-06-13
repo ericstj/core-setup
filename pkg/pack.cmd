@@ -16,7 +16,7 @@ if exist "%__ProjectDir%\bin" (rmdir /s /q "%__ProjectDir%\bin")
 
 :: Package the assets using Tools
 
-"%__ProjectDir%\Tools\corerun" "%__ProjectDir%\Tools\MSBuild.exe" "%__ProjectDir%\projects\packages.builds" /p:TargetsWindows=true /verbosity:minimal
+"%__ProjectDir%\Tools\corerun" "%__ProjectDir%\Tools\MSBuild.exe" "%__ProjectDir%\build.proj" /p:TargetsWindows=true /verbosity:minimal
 
 if not ERRORLEVEL 0 goto :Error
 exit /b 0
