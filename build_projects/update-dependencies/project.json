@@ -5,23 +5,23 @@
     "emitEntryPoint": true
   },
   "dependencies": {
-    "NETStandard.Library": "1.6.1-beta-24506-02",
-    "Microsoft.CSharp": "4.0.1",
-    "Microsoft.NETCore.Runtime.CoreCLR": "1.1.0-beta-24507-05",
-    "System.Runtime.Serialization.Primitives": "4.1.1",
+    "Microsoft.NETCore.Platforms":  "2.0.0-beta-25011-01",
+    "NETStandard.Library": "1.6.1",
+    "Microsoft.CSharp": "4.3.0",
+    "Microsoft.NETCore.Runtime.CoreCLR": "1.1.0",
+    "System.Runtime.Serialization.Primitives": "4.3.0",
     "Microsoft.DotNet.Cli.Build.Framework": {
       "target": "project"
     },
     "shared-build-targets-utils": {
       "target": "project"
     },
-    "NuGet.Versioning": "3.5.0-rc-1285",
-    "Newtonsoft.Json": "7.0.1",
+    "NuGet.Versioning": "3.5.0",
     "Octokit": "0.18.0",
     "Microsoft.Net.Http": "2.2.29"
   },
   "frameworks": {
-    "netcoreapp1.0": {
+    "netcoreapp1.1": {
       "imports": [
         "dnxcore50",
         "portable-net45+win"

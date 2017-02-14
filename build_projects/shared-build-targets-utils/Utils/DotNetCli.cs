@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Microsoft.DotNet.Cli.Build.Framework;
+using Microsoft.DotNet.PlatformAbstractions;
+using System;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
-using Microsoft.DotNet.Cli.Build.Framework;
-using Microsoft.DotNet.InternalAbstractions;
 using System.Collections.Generic;
 
 namespace Microsoft.DotNet.Cli.Build

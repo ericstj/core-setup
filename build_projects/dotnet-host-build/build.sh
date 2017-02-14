@@ -167,7 +167,7 @@ echo "Restoring Build Script projects..."
 
 # Build the builder
 echo "Compiling Build Scripts..."
-dotnet publish "$DIR" -o "$DIR/bin" --framework netcoreapp1.0
+dotnet publish "$DIR" -o "$DIR/bin" --framework netcoreapp1.1
 
 if [ $__BuildDriverOnly == 1 ]; then
     echo "Skipping invoking build scripts."

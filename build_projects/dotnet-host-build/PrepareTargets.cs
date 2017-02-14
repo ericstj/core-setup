@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using Microsoft.DotNet.Cli.Build.Framework;
-using Microsoft.DotNet.InternalAbstractions;
+using Microsoft.DotNet.PlatformAbstractions;
 using Newtonsoft.Json.Linq;
 using Microsoft.DotNet.Cli.Build;
 using static Microsoft.DotNet.Cli.Build.Framework.BuildHelpers;

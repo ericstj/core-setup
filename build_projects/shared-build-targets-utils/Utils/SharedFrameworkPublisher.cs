@@ -4,8 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
-using Microsoft.DotNet.InternalAbstractions;
 using Microsoft.DotNet.Cli.Build.Framework;
+using Microsoft.DotNet.PlatformAbstractions;
 using Newtonsoft.Json;
 
 using static Microsoft.DotNet.Cli.Build.Framework.BuildHelpers;
