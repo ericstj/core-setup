@@ -2,6 +2,7 @@
   "version": "1.0.0-*",
   "description": "Build scripts for dotnet-cli",
   "dependencies": {
+    "Microsoft.NETCore.Platforms":  "2.0.0-beta-25011-01",
     "NETStandard.Library": "1.6.1",
     "Microsoft.CSharp": "4.3.0",
     "System.Dynamic.Runtime": "4.3.0",
